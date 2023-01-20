@@ -39,10 +39,10 @@ Implementation:
 #include "CommonTools/UtilAlgos/interface/TFileService.h"
 #include "TTree.h"
 
-#include "L1Trigger/Phase2L1GMTNtuples/interface/L1AnalysisGMTTkMuon.h"
-#include "L1Trigger/Phase2L1GMTNtuples/interface/L1AnalysisGMTTkMuonDataFormat.h"
+#include "P2L1TMuonVal/Phase2L1GMTNtuples/interface/L1AnalysisGMTTkMuon.h"
+#include "P2L1TMuonVal/Phase2L1GMTNtuples/interface/L1AnalysisGMTTkMuonDataFormat.h"
 
-#include "L1Trigger/Phase2L1GMT/interface/Constants.h"
+#include "L1Trigger/Phase2L1GMT/plugins/Constants.h"
 
 
 //

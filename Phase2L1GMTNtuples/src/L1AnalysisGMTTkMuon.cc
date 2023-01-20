@@ -1,7 +1,7 @@
 //This code is for filling the step1 menu objects, for full tree go for L1AnalysisPhaseII.c
-#include "L1Trigger/Phase2L1GMTNtuples/interface/L1AnalysisGMTTkMuon.h"
+#include "P2L1TMuonVal/Phase2L1GMTNtuples/interface/L1AnalysisGMTTkMuon.h"
 #include "L1Trigger/L1TMuon/interface/MicroGMTConfiguration.h"
-#include "L1Trigger/Phase2L1GMT/interface/Constants.h"
+#include "L1Trigger/Phase2L1GMT/plugins/Constants.h"
 #include "TMath.h"
 L1Analysis::L1AnalysisGMTTkMuon::L1AnalysisGMTTkMuon() {}
 
@@ -37,11 +37,11 @@ void L1Analysis::L1AnalysisGMTTkMuon::SetGmtTkMuon(const edm::Handle<std::vector
 
                         l1extra_.gmtTkMuonNStubs.push_back(gmtTkMuon->at(i).stubs().size());
 
-                              //These belong to the new branch by Michalis (that I could not get to work)
-                                l1extra_.gmtTkMuonIdLUTEta.push_back(gmtTkMuon->at(i).idLUTEta());
-                                l1extra_.gmtTkMuonIdLUTPt.push_back(gmtTkMuon->at(i).idLUTPt());
-                                l1extra_.gmtTkMuonIdLUTQuality.push_back(gmtTkMuon->at(i).idLUTQuality());
-                                
+                        //These belong to the new branch by Michalis (that I could not get to work)
+                        //l1extra_.gmtTkMuonIdLUTEta.push_back(gmtTkMuon->at(i).idLUTEta());
+                        //l1extra_.gmtTkMuonIdLUTPt.push_back(gmtTkMuon->at(i).idLUTPt());
+                        //l1extra_.gmtTkMuonIdLUTQuality.push_back(gmtTkMuon->at(i).idLUTQuality());
+
 
 
 

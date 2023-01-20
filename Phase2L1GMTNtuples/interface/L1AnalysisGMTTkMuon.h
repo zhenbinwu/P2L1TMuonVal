@@ -14,7 +14,7 @@
 #include "DataFormats/L1TMuonPhase2/interface/MuonStub.h"
 #include "DataFormats/L1TMuonPhase2/interface/TrackerMuon.h"
 
-#include "L1Trigger/Phase2L1GMTNtuples/interface/L1AnalysisGMTTkMuonDataFormat.h"
+#include "P2L1TMuonVal/Phase2L1GMTNtuples/interface/L1AnalysisGMTTkMuonDataFormat.h"
 #include "DataFormats/L1TParticleFlow/interface/PFCandidate.h"
 
 namespace L1Analysis {
